@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "supapit",
+      "category": "dev-ops"
+    },
+     {
+      "id": 2,
+      "name": "kwaii",
+      "category": "front-end"
+    }
+  ]
+}

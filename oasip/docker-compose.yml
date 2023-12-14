@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build: .
+    container_name: oasip-frontend
+    image: frontimg
+    restart: always
+    volumes:
+      - './script:/docker-entrypoint-initdb.d/'
+    ports:
+      - '80:80'
